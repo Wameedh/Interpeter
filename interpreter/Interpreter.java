@@ -11,7 +11,7 @@ import java.io.*;
  *     1. Perform all initializations
  *     2. Load the ByteCodes from file
  *     3. Run the virtual machine
- * 
+ *
  *     THIS FILE CANNOT BE MODIFIED. DO NOT
  *     LET ANY EXCEPTIONS REACH THE
  *     INTERPRETER CLASS. ONLY EXCEPTION TO THIS RULE IS
@@ -39,7 +39,7 @@ public class Interpreter {
     }
 
     public static void main(String args[]) {
-
+        System.out.println("Testing...");
         if (args.length == 0) {
             System.out.println("***Incorrect usage, try: java interpreter.Interpreter <file>");
             System.exit(1);
